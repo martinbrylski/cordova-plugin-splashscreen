@@ -237,7 +237,7 @@ public class SplashScreen extends CordovaPlugin {
 
                 if (isMaintainAspectRatio()) {
                     // CENTER_CROP scale mode is equivalent to CSS "background-size:cover"
-                    splashImageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+                    splashImageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
                 }
                 else {
                     // FIT_XY scales image non-uniformly to fit into image view.
